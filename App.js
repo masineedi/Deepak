@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import {View} from 'react-native';
 import Images from './src/app/Components/Images';
 import StateMangement from './src/app/Components/state';
+import TextInputComponent from './src/app/Components/textinput';
 
 export default class App extends Component {
   constructor(props) {
@@ -13,7 +14,7 @@ export default class App extends Component {
   render() {
     return (
       <View style={{flex: 1, justifyContent: 'center'}}>
-        <StateMangement />
+        <TextInputComponent />
       </View>
     );
   }
