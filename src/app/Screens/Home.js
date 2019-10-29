@@ -3,9 +3,16 @@ import React, {Component} from 'react';
 import {View, Image, Text, TouchableOpacity} from 'react-native';
 // import {TouchableOpacity} from 'react-native-gesture-handler';
 
-const imgurl = 'https://miro.medium.com/max/1200/1*K0a7xINk0RM5gfXGSN68cw.png';
-var count = 0;
-export default class StateMangement extends Component {
+export default class Home extends Component {
+  //   static navigationOptions = () => ({
+  //     title: 'Add New Member',
+  //     headerTitleStyle: {textAlign: 'center', alignSelf: 'center' },
+  //     headerStyle: {
+  //       backgroundColor: 'red',
+  //     },
+  //     headerTintColor: 'blue',
+  //   });
+
   constructor(props) {
     super(props);
     this.state = {
@@ -14,10 +21,6 @@ export default class StateMangement extends Component {
   }
 
   increase() {
-    // this.setState({
-    //   countval: this.state.countval + 1,
-    // });
-
     this.setState(preVState => ({
       countval: preVState.countval + 1,
     }));
@@ -47,7 +50,7 @@ export default class StateMangement extends Component {
               alignItems: 'center',
               justifyContent: 'center',
             }}>
-            <Text style={{fontSize: 20}}>Inc</Text>
+            <Text style={{fontSize: 20, fontFamily: 'Roboto-Medium'}}>Inc</Text>
           </View>
         </TouchableOpacity>
         <View
@@ -69,7 +72,9 @@ export default class StateMangement extends Component {
               alignItems: 'center',
               justifyContent: 'center',
             }}>
-            <Text style={{fontSize: 20}}>Dec</Text>
+            <Text style={{fontSize: 20, fontFamily: 'Proximanova-bold'}}>
+              Dec
+            </Text>
           </View>
         </TouchableOpacity>
       </View>

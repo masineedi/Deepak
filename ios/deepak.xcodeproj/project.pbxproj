@@ -5,21 +5,22 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* deepakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* deepakTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1DD6923FA26C7B0925CD2942 /* libPods-deepak-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1B98F4155C36E130FE35CB /* libPods-deepak-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* deepakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* deepakTests.m */; };
-		34A92869846401EF11E2F3A3 /* libPods-deepak-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF1B6C984F0C385F2F8B031 /* libPods-deepak-tvOSTests.a */; };
-		48AEF3B746C6A51AAF824AF3 /* libPods-deepakTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3E4160F6276F768780F023 /* libPods-deepakTests.a */; };
-		4ABF11C6760C83B5FDE9DE89 /* libPods-deepak.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 227030FC6BCE367F93D9F68F /* libPods-deepak.a */; };
+		4CCF2249CEF5E70564F0E898 /* Pods_deepakTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5897833A1C35B3A1E019E7A /* Pods_deepakTests.framework */; };
+		840603A5FEC5AF2E7934292A /* Pods_deepak_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D7215526C14EC81DC56747 /* Pods_deepak_tvOS.framework */; };
+		EB8A8A7942A115C1CEFDDB27 /* Pods_deepak_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F097243676B443A5BE130D92 /* Pods_deepak_tvOSTests.framework */; };
+		F98D2A394186A239923CC250 /* Pods_deepak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCE37955118252A4FAB677B /* Pods_deepak.framework */; };
+		31FD7E3681324C8C9DEC16AE /* Proximanova-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D37E6D6F6ED54A8CA55605B4 /* Proximanova-bold.otf */; };
+		1DF00251B3004520A3C44AFF /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7194D67BAC08442AA7BDA146 /* Roboto-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,21 +53,23 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = deepak/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = deepak/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = deepak/main.m; sourceTree = "<group>"; };
-		227030FC6BCE367F93D9F68F /* libPods-deepak.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-deepak.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* deepak-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "deepak-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* deepak-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "deepak-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E1B98F4155C36E130FE35CB /* libPods-deepak-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-deepak-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2AE5E6F67102C6D077AADD /* Pods-deepak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deepak.release.xcconfig"; path = "Target Support Files/Pods-deepak/Pods-deepak.release.xcconfig"; sourceTree = "<group>"; };
 		5F2100930DF258FA39FD0608 /* Pods-deepak-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deepak-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-deepak-tvOSTests/Pods-deepak-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6C3E4160F6276F768780F023 /* libPods-deepakTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-deepakTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CCE37955118252A4FAB677B /* Pods_deepak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_deepak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D01C19C3D5579E89B4915AC /* Pods-deepak-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deepak-tvOS.release.xcconfig"; path = "Target Support Files/Pods-deepak-tvOS/Pods-deepak-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		AA095CCF445696785D6FE558 /* Pods-deepakTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deepakTests.release.xcconfig"; path = "Target Support Files/Pods-deepakTests/Pods-deepakTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6D7215526C14EC81DC56747 /* Pods_deepak_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_deepak_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3779431D0B48786B0DF3CF2 /* Pods-deepak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deepak.debug.xcconfig"; path = "Target Support Files/Pods-deepak/Pods-deepak.debug.xcconfig"; sourceTree = "<group>"; };
-		EAF1B6C984F0C385F2F8B031 /* libPods-deepak-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-deepak-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F097243676B443A5BE130D92 /* Pods_deepak_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_deepak_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5897833A1C35B3A1E019E7A /* Pods_deepakTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_deepakTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59BBFC19D66D3E3F78428FC /* Pods-deepakTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deepakTests.debug.xcconfig"; path = "Target Support Files/Pods-deepakTests/Pods-deepakTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F7F14962F7556946C05FBAD9 /* Pods-deepak-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deepak-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-deepak-tvOS/Pods-deepak-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D37E6D6F6ED54A8CA55605B4 /* Proximanova-bold.otf */ = {isa = PBXFileReference; name = "Proximanova-bold.otf"; path = "../assets/fonts/Proximanova-bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7194D67BAC08442AA7BDA146 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48AEF3B746C6A51AAF824AF3 /* libPods-deepakTests.a in Frameworks */,
+				4CCF2249CEF5E70564F0E898 /* Pods_deepakTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ABF11C6760C83B5FDE9DE89 /* libPods-deepak.a in Frameworks */,
+				F98D2A394186A239923CC250 /* Pods_deepak.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DD6923FA26C7B0925CD2942 /* libPods-deepak-tvOS.a in Frameworks */,
+				840603A5FEC5AF2E7934292A /* Pods_deepak_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34A92869846401EF11E2F3A3 /* libPods-deepak-tvOSTests.a in Frameworks */,
+				EB8A8A7942A115C1CEFDDB27 /* Pods_deepak_tvOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +151,6 @@
 				F59BBFC19D66D3E3F78428FC /* Pods-deepakTests.debug.xcconfig */,
 				AA095CCF445696785D6FE558 /* Pods-deepakTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -157,10 +159,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				227030FC6BCE367F93D9F68F /* libPods-deepak.a */,
-				3E1B98F4155C36E130FE35CB /* libPods-deepak-tvOS.a */,
-				EAF1B6C984F0C385F2F8B031 /* libPods-deepak-tvOSTests.a */,
-				6C3E4160F6276F768780F023 /* libPods-deepakTests.a */,
+				9CCE37955118252A4FAB677B /* Pods_deepak.framework */,
+				B6D7215526C14EC81DC56747 /* Pods_deepak_tvOS.framework */,
+				F097243676B443A5BE130D92 /* Pods_deepak_tvOSTests.framework */,
+				F5897833A1C35B3A1E019E7A /* Pods_deepakTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -181,6 +183,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				2BEF48F4D5013C256EB524EB /* Pods */,
+				EFD190CDA0364ED687A10123 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +200,16 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		EFD190CDA0364ED687A10123 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				D37E6D6F6ED54A8CA55605B4 /* Proximanova-bold.otf */,
+				7194D67BAC08442AA7BDA146 /* Roboto-Medium.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -285,7 +298,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -308,6 +321,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -338,6 +352,8 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				31FD7E3681324C8C9DEC16AE /* Proximanova-bold.otf in Resources */,
+				1DF00251B3004520A3C44AFF /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,6 +644,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = deepak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -647,6 +664,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = deepak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (

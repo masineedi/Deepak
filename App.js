@@ -1,10 +1,7 @@
 /* eslint-disable react-native/no-inline-styles */
 import React, {Component} from 'react';
 import {View} from 'react-native';
-import Images from './src/app/Components/Images';
-import StateMangement from './src/app/Components/state';
-import TextInputComponent from './src/app/Components/textinput';
-
+import {AppContainer} from './src/app/navigation/stacknav';
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -13,8 +10,8 @@ export default class App extends Component {
 
   render() {
     return (
-      <View style={{flex: 1, justifyContent: 'center'}}>
-        <TextInputComponent />
+      <View style={{flex: 1}}>
+        <AppContainer />
       </View>
     );
   }
