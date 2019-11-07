@@ -14,7 +14,7 @@ export default class Login extends Component {
   submit() {
     // alert(this.state.nameVal);
 
-    this.props.navigation.navigate('Home');
+    this.props.navigation.toggleDrawer();
   }
 
   render() {

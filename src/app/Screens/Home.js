@@ -30,6 +30,7 @@ export default class Home extends Component {
     this.setState({
       countval: this.state.countval - 1,
     });
+    this.props.navigation.toggleDrawer();
   }
 
   render() {
