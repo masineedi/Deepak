@@ -2,6 +2,7 @@ import {createStackNavigator} from 'react-navigation-stack';
 import {createAppContainer, createDrawerNavigator} from 'react-navigation';
 import Login from '../Screens/Login';
 import Home from '../Screens/Home';
+import Srudents from '../Screens/Srudents';
 
 const stackNav = createStackNavigator(
   {
@@ -11,14 +12,22 @@ const stackNav = createStackNavigator(
         header: null,
       },
     },
-    // Home: {
-    //   screen: Home,
-    //   navigationOptions: {
-    //     headerMode: 'Screen',
-    //     //   title: 'Home screen',
-    //     //   headerTintColor: 'red',
-    //   },
-    // },
+    Home: {
+      screen: Home,
+      navigationOptions: {
+        headerMode: 'Screen',
+        //   title: 'Home screen',
+        //   headerTintColor: 'red',
+      },
+    },
+    Srudents: {
+      screen: Srudents,
+      navigationOptions: {
+        headerMode: 'Screen',
+        //   title: 'Home screen',
+        //   headerTintColor: 'red',
+      },
+    },
   },
   {
     defaultNavigationOptions: {
@@ -61,4 +70,4 @@ const drawer = createDrawerNavigator(
   },
 );
 
-export const AppContainer = createAppContainer(drawer);
+export const AppContainer = createAppContainer(stackNav);
